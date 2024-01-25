@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Mir_Project5Project
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali/Mir_Project5Project
+  gitUsername: mirhussainali
+  gitBranch: main
