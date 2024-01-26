@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/mirhussainali/Mir_Project5Project
   gitUsername: mirhussainali
   gitBranch: main
+services:
+- serviceName: project.mir_project5.integrations:logATEdge
+  packages:
+  - name: Mir_Project5Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
